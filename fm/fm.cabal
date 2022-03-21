@@ -1,0 +1,16 @@
+Name:           fm
+Version:        0.0.1
+Cabal-Version:  >= 1.8
+Build-Type:     Simple
+License:        GPL
+Author:         Dmitry Bespalov
+Description:    File Manager application.
+
+Executable fm
+   Main-is: Main.hs
+   Build-Depends:  base >= 4 && < 5, directory, filepath, gtk, mtl, transformers
+   Ghc-options: -Wall -fno-warn-unused-do-bind -fno-warn-name-shadowing
+                 -- -optl-mwindows
+
+   if os(windows)
+      cpp-options: -DWINDOWS
