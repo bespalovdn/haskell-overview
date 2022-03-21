@@ -1,0 +1,4 @@
+#define somefn void func(int,float)\
+    {\
+        dosomework;\
+    }

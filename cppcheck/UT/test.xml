@@ -1,0 +1,4 @@
+<test object="Comment" result="success">
+	<input>//some comment</input>
+	<output>Comment { getComment="some comment" }</output>
+</test>

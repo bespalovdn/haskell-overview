@@ -1,0 +1,4 @@
+<test object="Define" result="success">
+	<input>#define DEF</input>
+	<output>Define { defineName="DEF", defineParams=Nothing, defineBody=Nothing }</output>
+</test>

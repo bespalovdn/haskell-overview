@@ -1,0 +1,8 @@
+namespace{
+//somecode
+
+#define UINT int
+
+#include <iostream>
+/*done*/
+}

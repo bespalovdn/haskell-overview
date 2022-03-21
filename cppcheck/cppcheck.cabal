@@ -1,0 +1,16 @@
+Name:           cppcheck
+Version:        0.0.1
+Cabal-Version:  >= 1.8
+License:        BSD3
+Build-Type:     Simple
+Author:         Dmitry Bespalov
+Synopsis:       Checks the C++ sources.
+
+
+executable cppcheck
+    build-depends:  base >= 4, text-format-simple
+    main-is: main.hs
+    other-modules:
+        
+    ghc-options: -Wall
+--               -rtsopts -threaded -with-rtsopts=-N

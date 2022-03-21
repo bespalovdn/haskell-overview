@@ -1,0 +1,11 @@
+/*some brief*/
+#include "helloworld.h"
+
+// mega code
+#define int void
+
+/*another inclue*/
+#include "dieworld.bugaga"
+#define endof world
+
+// done!

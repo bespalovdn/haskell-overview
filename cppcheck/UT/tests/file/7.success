@@ -1,0 +1,6 @@
+#include "helloworld.h"
+#include <iostream>
+
+using namespace std;
+
+#define UINT unsigned int

@@ -1,0 +1,16 @@
+Name:           ut
+Version:        0.0.1
+Cabal-Version:  >= 1.8
+License:        BSD3
+Build-Type:     Simple
+Author:         Dmitry Bespalov
+Synopsis:       Unit Tests.
+
+executable ut
+    build-depends:  base >= 4, directory, dmitryb-parser, 
+                    regex-posix, text-format-simple, xml
+    main-is: main.hs
+    other-modules:
+    hs-source-dirs: . ..
+    ghc-options: -Wall -fno-warn-unused-do-bind -fno-warn-name-shadowing
+--               -rtsopts -threaded -with-rtsopts=-N

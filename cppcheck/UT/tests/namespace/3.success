@@ -1,0 +1,4 @@
+namespace A
+{
+    #include "somefile.h"
+}

@@ -1,0 +1,5 @@
+#define __A
+
+using std::string;
+
+#include <iostream>

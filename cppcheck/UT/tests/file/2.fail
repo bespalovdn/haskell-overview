@@ -1,0 +1,15 @@
+#include  <io>
+
+using namespace std;
+
+namespace {
+    #define N 0
+}
+
+namespace A { #include "hello.hpp" }
+
+namespace A{
+namespace B{
+namespace C{
+}}//<<<<<<<<<<<<< lack of braces!!!
+/*happy end*/
